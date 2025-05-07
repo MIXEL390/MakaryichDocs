@@ -1,0 +1,29 @@
+site_name: Модернизация и реконфигурирование вычислительного комплекса ФББ МГУ «Макарьич»
+theme:
+  name: material
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - toc.integrate
+  - navigation.top
+  - search.suggest
+  - search.highlitght
+  - content.tabs.lib
+  - content.code.annotation
+  - content.code.copy
+  language: en
+  language: ru
+  palette:
+    - sheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Dark mode|Темная тема 
+      primary: white
+      accent: blue
+    - sheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Light mode|Светлая тема 
+      primary: black
+      accent: green
+
