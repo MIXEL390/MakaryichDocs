@@ -1,0 +1,1280 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Main - Модернизация и реконфигурирование вычислительного комплекса ФББ МГУ «Макарьич»</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href=".." title="Модернизация и реконфигурирование вычислительного комплекса ФББ МГУ «Макарьич»" class="md-header__button md-logo" aria-label="Модернизация и реконфигурирование вычислительного комплекса ФББ МГУ «Макарьич»" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Модернизация и реконфигурирование вычислительного комплекса ФББ МГУ «Макарьич»
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Main
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="blue"  aria-label="Dark mode|Темная тема"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode|Темная тема" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="green"  aria-label="Light mode|Светлая тема"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode|Светлая тема" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Вкладки" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Main
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Модернизация и реконфигурирование вычислительного комплекса ФББ МГУ «Макарьич»" class="md-nav__button md-logo" aria-label="Модернизация и реконфигурирование вычислительного комплекса ФББ МГУ «Макарьич»" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Модернизация и реконфигурирование вычислительного комплекса ФББ МГУ «Макарьич»
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Main
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Main
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Введение
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Сетевая адресация
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Сетевая адресация">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Внешняя адресация
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Внутренняя адресация
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Доступ к комплексу
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Доступ к комплексу">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Подключение к узлу управления
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-bmc" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Подключение к BMC контроллерам оборудования
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-proxmox" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 Система виртуализации Proxmox
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-trinityx" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 Управление пользователями кластера TrinityX
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4 Управление пользователями кластера TrinityX">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      - Добавление пользователя с указанием дополнительной информации:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      - Экспорт данных о пользователях в файл:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      - Импорт данных о пользователях из файла:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 Система динамической загрузки модулей modules
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-slurm" class="md-nav__link">
+    <span class="md-ellipsis">
+      6 Система очередей SLURM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-trinityx" class="md-nav__link">
+    <span class="md-ellipsis">
+      7 Система управления TrinityX
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Приложения
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Приложения">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Таблица 2. Адреса в сети обмена данными
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Таблица 3. Адреса в служебной сети
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-mac-" class="md-nav__link">
+    <span class="md-ellipsis">
+      Таблица 4. MAC-Адреса
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Блок-схемы работы кластера
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Блок схема стека программного обеспечения кластера
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><a href="https://postimg.cc/YhgXMbND"><img alt="photo-2025-05-07-11-57-28.jpg" src="https://i.postimg.cc/CLr9C2R0/photo-2025-05-07-11-57-28.jpg" /></a></p>
+<h1 id="_1">Модернизация и реконфигурирование вычислительного комплекса ФББ МГУ «Макарьич»</h1>
+<p><strong>ООО "КОГНИТАР"</strong>  </p>
+<p>+7 (499) 899-89-96 <br />
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#103;&#110;&#105;&#116;&#97;&#114;&#64;&#104;&#112;&#99;&#45;&#97;&#105;&#46;&#114;&#117;">&#99;&#111;&#103;&#110;&#105;&#116;&#97;&#114;&#64;&#104;&#112;&#99;&#45;&#97;&#105;&#46;&#114;&#117;</a></p>
+<p>2024г</p>
+<hr />
+<h2 id="_2">Введение</h2>
+<p>Этот документ поможет вам быстро разобраться в архитектуре вычислительного комплекса «Макарьич». Он предназначен для специалистов, работающих с системой, и описывает основные этапы работы: подключение, управление пользователями, очередями заданий и виртуализацией.</p>
+<hr />
+<h2 id="_3">Сетевая адресация</h2>
+<h3 id="11">1.1 Внешняя адресация</h3>
+<p>Выделена внешняя подсеть:<br />
+<code>93.180.63.0/24</code><br />
+Шлюз подсети: <code>93.180.63.15</code></p>
+<p>Задействованные адреса:<br />
+- <code>93.180.63.131</code> — 1-й шлюз комплекса<br />
+- <code>93.180.63.132</code> — 2-й шлюз комплекса  </p>
+<h3 id="12">1.2 Внутренняя адресация</h3>
+<ul>
+<li><code>192.168.0.0/24</code> — основная сеть  </li>
+<li><code>192.168.1.0/24</code> — сеть управления оборудованием  </li>
+<li><code>10.0.0.0/24</code> — DMZ, сейчас 10G между серверами gs61 и gs62  </li>
+</ul>
+<hr />
+<h2 id="_4">Доступ к комплексу</h2>
+<h3 id="21">2.1 Подключение к узлу управления</h3>
+<p>После подключения к сети через VPN:  </p>
+<pre><code class="language-bash">ssh login@93.180.63.131  # head01
+ssh login@93.180.63.132  # head02
+</code></pre>
+<p>Управление кластером осуществляется на узле trinityX.</p>
+<p>На нем находятся:</p>
+<ol>
+<li>ПО управления кластером TrinityX(Luna)</li>
+<li>ПО управления (obol + ldap) и база пользователей</li>
+<li>Управление и база SLURM</li>
+</ol>
+<h3 id="22-bmc">2.2 Подключение к BMC контроллерам оборудования</h3>
+<p>Подключение через веб-интерфейс: <code>http://192.168.1.X</code></p>
+<p>(X – адрес устройства, см. таблицу IP-адресов)</p>
+<hr />
+<h2 id="3-proxmox">3 Система виртуализации Proxmox</h2>
+<p>Proxmox Backup Server (PBS) — клиент-серверное решение для резервного копирования и восстановления виртуальных машин, контейнеров и данных с физических узлов. Решение оптимизировано для проекта Proxmox VE (PVE). PBS поддерживает инкрементное резервное копирование с полной дедупликацией, что значительно снижает нагрузку на сеть и экономит пространство для хранения.</p>
+<p>Клиент резервного копирования использует API для доступа к резервным копиям. С помощью инструмента командной строки proxmox-backup-client можно создавать резервные копии и восстанавливать данные (в PVE клиент встроен).</p>
+<p>Для управления настройкой резервного копирования и резервными копиями используется веб-интерфейс. Все административные задачи можно выполнять в веб-браузере. Веб-интерфейс также предоставляет встроенную консоль.</p>
+<p>Proxmox Virtual Environment – платформа с открытым исходным кодом для управления серверами виртуализации. Proxmox позволяет запускать и управлять виртуальными машинами. Это удобно, если вам нужно развернуть несколько серверов на одном физическом оборудовании.</p>
+<p>Как войти в систему Proxmox:
+ 1. Откройте браузер и перейдите по адресу: <code>https://&lt;узел проксмокса&gt;:8006</code>
+  2. Введите логин и пароль администратора (root).
+  3. После входа можно управлять виртуальными машинами через веб-интерфейс.
+Резервное копирование осуществляется через Proxmox Backup Server (PBS)
+<a href="https://postimg.cc/rD0P0qLj"><img alt="photo-2025-05-07-11-36-00.jpg" src="https://i.postimg.cc/cLXyzJ9p/photo-2025-05-07-11-36-00.jpg" /></a></p>
+<p>Система резервного копирования Proxmox</p>
+<p>Proxmox Backup Server (PBS) — клиент-серверное решение для резервного копирования и восстановления виртуальных машин, контейнеров и данных с физических узлов. Решение оптимизировано для проекта Proxmox VE (PVE). PBS поддерживает инкрементное резервное копирование с полной дедупликацией, что значительно снижает нагрузку на сеть и экономит пространство для хранения.
+Клиент резервного копирования использует API для доступа к резервным копиям. С помощью инструмента командной строки proxmox-backup-client можно создавать резервные копии и восстанавливать данные (в PVE клиент встроен).
+Для управления настройкой резервного копирования и резервными копиями используется веб-интерфейс. Все административные задачи можно выполнять в веб-браузере. Веб-интерфейс также предоставляет встроенную консоль.</p>
+<p><a href="https://postimg.cc/YvYxB0H5"><img alt="photo-2025-05-07-11-37-25.jpg" src="https://i.postimg.cc/FHnCcknH/photo-2025-05-07-11-37-25.jpg" /></a></p>
+<hr />
+<h2 id="4-trinityx">4  Управление пользователями кластера TrinityX</h2>
+<p>TrinityX позволяет управлять пользователями и назначать им роли в кластере. Это важно, если в системе работает несколько человек.</p>
+<p>Управление пользователями в TrinityX осуществляется с помощью утилиты Obol. Obol представляет собой простую обёртку над командами LDAP для обновления локального LDAP-каталога, установленного по умолчанию. Утилита поддерживает управление как пользователями, так и группами, почти так же, как это выполняется стандартными утилитами Linux.</p>
+<p><strong>Как войти в TrinityX:</strong></p>
+<ol>
+<li>Подключитесь к системе через SSH:</li>
+</ol>
+<p><code>ssh login@trinityX</code></p>
+<ol>
+<li>Введите свои учетные данные.</li>
+<li>
+<p>После входа можно управлять пользователями и заданиями кластера.</p>
+</li>
+<li>
+<p>Создание изменение пользователя</p>
+</li>
+<li>
+<p><code>obol user add|modify</code> …</p>
+</li>
+<li>
+<p>Управление группами осуществляется аналогичным образом с использованием:</p>
+</li>
+<li>
+<p><code>obol group [command]</code> …_</p>
+</li>
+</ol>
+<h3 id="-">- Добавление пользователя с указанием дополнительной информации:</h3>
+<ul>
+<li><code>obol useradd &amp;lt;имя_пользователя&amp;gt; --fullname "Имя Фамилия" --email "email@example.com"</code></li>
+</ul>
+<h3 id="-_1">- Экспорт данных о пользователях в файл:</h3>
+<ul>
+<li><code>obol export users --output &amp;lt;имя_файла&amp;gt;</code></li>
+</ul>
+<h3 id="-_2">- Импорт данных о пользователях из файла:</h3>
+<ul>
+<li><code>obol import users --file &amp;lt;имя_файла&amp;gt;</code></li>
+</ul>
+<hr />
+<p>Создание пользователя кластера:
+<a href="https://postimg.cc/Yv9XcM9k"><img alt="photo-2025-05-07-11-22-22.jpg" src="https://i.postimg.cc/6pVFvQx7/photo-2025-05-07-11-22-22.jpg" /></a></p>
+<hr />
+<h2 id="5-modules">5 Система динамической загрузки модулей modules</h2>
+<p>Modules — это инструмент, упрощающий инициализацию оболочки и позволяющий пользователям легко изменять своё окружение во время сессии с использованием modulefiles.</p>
+<p>Примеры:</p>
+<ul>
+<li>Пример загрузки модуля на машине с Linux под Bash:</li>
+</ul>
+<pre><code>- $ module load gcc/9.4.0
+- $ which gcc
+- $ /usr/local/gcc/9.4.0/linux-x86_64/bin/gcc
+- Переключение между версиями модуля:
+- $ module switch gcc gcc/10
+- $ which gcc
+- /usr/local/gcc/10.3.0/linux-x86_64/bin/gcc
+- Выгрузка модуля:
+- $ module unload gcc
+- $ which gcc
+- gcc not found
+</code></pre>
+<ol>
+<li>Введите команду <code>squeue</code>, чтобы проверить состояние задач.</li>
+<li>Чтобы запустить задание, используйте <code>sbatch</code>.</li>
+</ol>
+<p>Создано 2 очереди (partition): gpu для узлов с GPU, cpu
+с узлами CPU. Доступ к очереди определяется наличием пользователя в одноименной группе.</p>
+<h2 id="_5"><a href="https://postimg.cc/wtxR4jTc"><img alt="photo-2025-05-07-11-40-33.jpg" src="https://i.postimg.cc/bvk0JZ7M/photo-2025-05-07-11-40-33.jpg" /></a></h2>
+<h2 id="6-slurm">6 Система очередей SLURM</h2>
+<p>SLURM помогает распределять вычислительные ресурсы между пользователями. Это избавляет вас от необходимости вручную искать доступные узлы.</p>
+<p>Установлена система пакетной обработки заданий slurm версии 22.05.9</p>
+<p>Как войти в SLURM:</p>
+<ol>
+<li>Подключитесь к серверу управления через SSH:
+<code>ssh login@head01\02</code></li>
+<li>Введите команду <code>squeue</code>, чтобы проверить состояние задач.</li>
+<li>Чтобы запустить задание, используйте <code>sbatch</code>.</li>
+</ol>
+<p>По умолчанию, если не указана партиция запуска (опция -p), то задание попадает в очередь cpu.</p>
+<ul>
+<li>Отправка задания в очередь</li>
+<li>По умолчанию в очередь cpu:</li>
+<li><code>_sbatch my_job_script.sh_</code></li>
+<li>Явно указать очередь gpu:</li>
+<li><code>_sbatch -p gpu my_job_script.sh_</code></li>
+<li>Запуск интерактивной сессии:</li>
+<li>В очередь cpu:</li>
+<li><code>_srun --pty bash_</code></li>
+<li>В очередь gpu:</li>
+<li><code>_srun -p gpu --pty bash_</code></li>
+<li>Мониторинг очереди и заданий</li>
+<li>Просмотр очереди и состояния заданий:</li>
+<li><code>_squeue_</code></li>
+<li>Фильтрация по пользователю:</li>
+<li><code>_squeue -u your_username_</code></li>
+<li>Просмотр задания в конкретной очереди:</li>
+<li>В очереди cpu:</li>
+<li><code>_squeue -p cpu_</code></li>
+<li>В очереди gpu:</li>
+<li><code>_squeue -p gpu_</code></li>
+<li>Отмена задания</li>
+<li>Отмена задания по его ID:</li>
+<li><code>_scancel &amp;lt;job_id&amp;gt;_</code></li>
+<li>Отмена всех заданий пользователя:</li>
+<li><code>_scancel -u your_username_</code></li>
+</ul>
+<hr />
+<h2 id="7-trinityx">7 Система управления TrinityX</h2>
+<p>TrinityX — это новое поколение открытого программного обеспечения для управления инфраструктурой HPC и AI от компании ClusterVision, теперь с расширенными возможностями CloudBursting. Кроме того, TrinityX включает дополнительные модули, адаптированные к специфическим потребностям, что позволяет точно настраивать вычислительные узлы.</p>
+<p>Используются 3 группы узлов: cpu, gpu, service.
+<a href="https://postimg.cc/nMmrkDGf"><img alt="photo-2025-05-07-11-42-47.jpg" src="https://i.postimg.cc/c193d7KC/photo-2025-05-07-11-42-47.jpg" /></a></p>
+<pre><code class="language-bash">Добавление узла luna в конфигурацию кластера:
+
+- _luna node add --group cpu &amp;lt;newnode&amp;gt;_
+
+Снять образ ОС с узла
+
+- _luna node osgrab -o cpu node01 -no_
+
+Собрать образ ОС для использования
+
+- _luna osimage pack cpu_
+</code></pre>
+<p>Крайне полезен в повседневной работе параллельный интерпретатор команд <code>pdsh</code> (группа или имя узла или список)</p>
+<p>Например, выполнить команду <code>hostname</code> на некоторых серверах:</p>
+<p>В комплексе используется 2 типа общего межузлового доступа к данным:</p>
+<p><a href="https://postimg.cc/Fkb9Q0Tf"><img alt="image.png" src="https://i.postimg.cc/cC26wmYc/image.png" /></a></p>
+<p><code>/data</code> – NFS, хранит домашние папки пользователей, на data01</p>
+<p><code>/shared</code> – используется для хранения системного программного обеспечения и общего окружения, хранится на управляющем узле.</p>
+<hr />
+<h2 id="_6">Приложения</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Комната</strong></th>
+<th><strong>146а</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Адрес</strong></td>
+<td>93.180.63.131 (head01)93.180.63.132 (head02)</td>
+</tr>
+<tr>
+<td><strong>DNS</strong></td>
+<td>makarich.fbb.msu.ru -&gt; 131 ma.fbb.msu.ru -&gt; 132</td>
+</tr>
+<tr>
+<td><strong>Настройки сети</strong></td>
+<td>GW: 93.180.63.15 DNS: 93.180.63.1 8.8.8.8 Mask:255.255.255.0</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2"><em>Таблица 2. Адреса в сети обмена данными</em></h3>
+<table>
+<thead>
+<tr>
+<th>Адрес</th>
+<th>Сервер</th>
+<th>Примечание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>192.168.0.1-32</td>
+<td>node [ 01-32 ]</td>
+<td>cpu</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.0.61</td>
+<td>gs61</td>
+<td>proxmox</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.0.62</td>
+<td>gs62</td>
+<td>proxmox</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.0.100</td>
+<td>head01</td>
+<td>proxmox</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.0.101</td>
+<td>head02</td>
+<td>proxmox</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.0.200</td>
+<td>trinityX</td>
+<td>manager VIRT</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.0.201</td>
+<td>head01</td>
+<td>service VIRT</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.0.202</td>
+<td>head02</td>
+<td>service VIRT</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.0.161</td>
+<td>gs161</td>
+<td>gpu VIRT</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.0.162</td>
+<td>gs162</td>
+<td>gpu VIRT</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.0.246</td>
+<td>data01</td>
+<td>proxmox NFS</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.0.251</td>
+<td>gw1</td>
+<td>gateway VIRT</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.0.252</td>
+<td>gw2</td>
+<td>gateway VIRT</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3"><em>Таблица 3. Адреса в служебной сети</em></h3>
+<table>
+<thead>
+<tr>
+<th>Адрес</th>
+<th>Сервер</th>
+<th>Примечание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>192.168.1.3-32</td>
+<td>nodeN</td>
+<td>admin uhu,pry</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.1.50</td>
+<td>UPS кластера</td>
+<td></td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.1.61</td>
+<td>gs61</td>
+<td>ADMIN QGKPNACUQF</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.1.62</td>
+<td>gs62</td>
+<td>ADMIN QJZATWSCZH</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.1.100</td>
+<td>head01</td>
+<td>admin uhu,pry</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.1.101</td>
+<td>head02</td>
+<td>admin uhu,pry</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.1.246</td>
+<td>data01</td>
+<td>login: root password: 0penBmc (Zero!)</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.1.249</td>
+<td>Dlink DGS-1210-28T</td>
+<td>admin admin</td>
+</tr>
+<tr>
+<td>192.168.1.250</td>
+<td>3COM 4510G 48p 1G</td>
+<td>admin uhu,pry</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>192.168.1.252</td>
+<td>FC</td>
+<td></td>
+</tr>
+<tr>
+<td>192.168.1.253</td>
+<td>eltex</td>
+<td></td>
+</tr>
+<tr>
+<td>192.168.1.254</td>
+<td>3COM 2250 48p 100m</td>
+<td>admin uhu,pry</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-mac-"><em>Таблица 4. MAC-Адреса</em></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Node</strong></th>
+<th><strong>eth0</strong></th>
+<th><strong>eth1</strong></th>
+<th><strong>BMC</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>node03</td>
+<td>F4:6D:04:54:98:DA</td>
+<td>f4:6d:04:54:98:d9</td>
+<td>00:24:8c:99:6b:46 (manual set)</td>
+</tr>
+<tr>
+<td>node04</td>
+<td>F4:6D:04:54:98:7A</td>
+<td>f4:6d:04:54:98:79</td>
+<td>f4:6d:04:2c:ee:c5</td>
+</tr>
+<tr>
+<td>node05</td>
+<td>F4:6D:04:54:98:82</td>
+<td>f4:6d:04:54:98:81</td>
+<td>f4:6d:04:2c:ee:cc</td>
+</tr>
+<tr>
+<td>node06</td>
+<td>F4:6D:04:54:99:B8</td>
+<td>f4:6d:04:54:99:b7</td>
+<td>f4:6d:04:2c:ee:73</td>
+</tr>
+<tr>
+<td>node07</td>
+<td>F4:6D:04:54:98:D2</td>
+<td>f4:6d:04:54:98:d1</td>
+<td>f4:6d:04:2c:ee:d3</td>
+</tr>
+<tr>
+<td>node08</td>
+<td>F4:6D:04:54:98:D6</td>
+<td>f4:6d:04:54:98:d5</td>
+<td>f4:6d:04:2c:ee:c8</td>
+</tr>
+<tr>
+<td>node09</td>
+<td>f4:6d:04:54:98:9c</td>
+<td>f4:6d:04:54:98:9b</td>
+<td>f4:6d:04:2c:ef:29</td>
+</tr>
+<tr>
+<td>node10</td>
+<td>F4:6D:04:54:98:BC</td>
+<td>f4:6d:04:54:98:bb</td>
+<td>f4:6d:04:2c:ee:a1</td>
+</tr>
+<tr>
+<td>node11</td>
+<td>F4:6D:04:54:98:DE</td>
+<td>f4:6d:04:54:98:dd</td>
+<td>f4:6d:04:2c:ee:82</td>
+</tr>
+<tr>
+<td>node12</td>
+<td>F4:6D:04:54:99:BC</td>
+<td>f4:6d:04:54:99:bb</td>
+<td>f4:6d:04:2c:ee:6f</td>
+</tr>
+<tr>
+<td>node13</td>
+<td>f4:6d:04:54:98:1c</td>
+<td>f4:6d:04:54:98:1b</td>
+<td>f4:6d:04:2c:ef:2d</td>
+</tr>
+<tr>
+<td>node14</td>
+<td>f4:6d:04:54:98:20</td>
+<td>f4:6d:04:54:98:1f</td>
+<td>f4:6d:04:2c:ee:d6</td>
+</tr>
+<tr>
+<td>node15</td>
+<td>f4:6d:04:54:99:b4</td>
+<td>f4:6d:04:54:99:b3</td>
+<td>f4:6d:04:2c:ee:bf</td>
+</tr>
+<tr>
+<td>node16</td>
+<td>f4:6d:04:54:99:48</td>
+<td>f4:6d:04:54:99:47</td>
+<td>f4:6d:04:2c:ee:6a</td>
+</tr>
+<tr>
+<td>node17</td>
+<td>f4:6d:04:54:98:ac</td>
+<td>f4:6d:04:54:98:ab</td>
+<td>f4:6d:04:2c:ee:a9</td>
+</tr>
+<tr>
+<td>node18</td>
+<td>f4:6d:04:54:98:a8</td>
+<td>f4:6d:04:54:98:a7</td>
+<td>f4:6d:04:2c:ee:cd</td>
+</tr>
+<tr>
+<td>node19</td>
+<td>f4:6d:04:54:99:76</td>
+<td>f4:6d:04:54:99:75</td>
+<td>f4:6d:04:2c:ee:bc</td>
+</tr>
+<tr>
+<td>node20</td>
+<td>f4:6d:04:54:98:22</td>
+<td>f4:6d:04:54:98:21</td>
+<td>f4:6d:04:2c:ee:c7</td>
+</tr>
+<tr>
+<td>node21</td>
+<td>f4:6d:04:54:98:76</td>
+<td>f4:6d:04:54:98:75</td>
+<td>f4:6d:04:2c:ee:77</td>
+</tr>
+<tr>
+<td>node22</td>
+<td>f4:6d:04:54:98:48</td>
+<td>f4:6d:04:54:98:47</td>
+<td>00:10:20:3d:4e:88</td>
+</tr>
+<tr>
+<td>node23</td>
+<td>f4:6d:04:54:98:8a</td>
+<td>f4:6d:04:54:98:89</td>
+<td>f4:6d:04:2c:ee:be</td>
+</tr>
+<tr>
+<td>node24</td>
+<td>f4:6d:04:54:98:84</td>
+<td>f4:6d:04:54:98:83</td>
+<td>f4:6d:04:2c:ef:2c</td>
+</tr>
+<tr>
+<td>node25</td>
+<td>f4:6d:04:54:99:ac</td>
+<td>f4:6d:04:54:99:ab</td>
+<td>f4:6d:04:2c:ee:d5</td>
+</tr>
+<tr>
+<td>node26</td>
+<td>f4:6d:04:54:99:9e</td>
+<td>f4:6d:04:54:99:9d</td>
+<td>f4:6d:04:2c:ee:c0</td>
+</tr>
+<tr>
+<td>node27</td>
+<td>f4:6d:04:54:99:0c</td>
+<td>f4:6d:04:54:99:0b</td>
+<td>f4:6d:04:2c:ee:c9</td>
+</tr>
+<tr>
+<td>node28</td>
+<td>f4:6d:04:54:98:7c</td>
+<td>f4:6d:04:54:98:7b</td>
+<td>f4:6d:04:2c:ee:96</td>
+</tr>
+<tr>
+<td>node29</td>
+<td>f4:6d:04:54:99:96</td>
+<td>f4:6d:04:54:99:95</td>
+<td>f4:6d:04:2c:ee:c1</td>
+</tr>
+<tr>
+<td>node30</td>
+<td>f4:6d:04:54:98:d8</td>
+<td>f4:6d:04:54:98:d7</td>
+<td>00:10:20:3d:4e:88</td>
+</tr>
+<tr>
+<td>node31</td>
+<td>f4:6d:04:54:99:b2</td>
+<td>f4:6d:04:54:99:b1</td>
+<td>f4:6d:04:2c:ee:a6</td>
+</tr>
+<tr>
+<td>node32</td>
+<td>f4:6d:04:54:98:56</td>
+<td>f4:6d:04:54:98:55</td>
+<td>f4:6d:04:2c:ee:a2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="-_3">Блок-схемы работы кластера</h3>
+<p><a href="https://postimg.cc/F79vLdPZ"><img alt="image.png" src="https://i.postimg.cc/jdfSByPG/image.png" /></a>
+<a href="https://postimg.cc/p9nMHDT2"><img alt="image.png" src="https://i.postimg.cc/nL3Fq2fQ/image.png" /></a></p>
+<h3 id="_7">Блок схема стека программного обеспечения кластера</h3>
+<p><a href="https://postimg.cc/Z91ZBwgB"><img alt="image.png" src="https://i.postimg.cc/NM00nVk4/image.png" /></a></p>
+<p>ООО "КОГНИТАР"</p>
+<p>+7 (499) 899-89-96 <br />
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#103;&#110;&#105;&#116;&#97;&#114;&#64;&#104;&#112;&#99;&#45;&#97;&#105;&#46;&#114;&#117;">&#99;&#111;&#103;&#110;&#105;&#116;&#97;&#114;&#64;&#104;&#112;&#99;&#45;&#97;&#105;&#46;&#114;&#117;</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlitght", "content.tabs.lib", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
